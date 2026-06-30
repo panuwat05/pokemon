@@ -32,8 +32,7 @@ export default function AboutPage() {
       sx={{
         minHeight: "100vh",
         py: 6,
-        background:
-          "linear-gradient(135deg,#fff8f8 0%,#f4f6fb 100%)",
+        background: "linear-gradient(135deg,#fff8f8 0%,#f4f6fb 100%)",
       }}
     >
       <Container maxWidth="md">
@@ -61,8 +60,7 @@ export default function AboutPage() {
           {/* Header */}
           <Box
             sx={{
-              background:
-                "linear-gradient(90deg,#e53935,#ef5350)",
+              background: "linear-gradient(90deg,#e53935,#ef5350)",
               color: "white",
               py: 5,
               textAlign: "center",
@@ -72,30 +70,37 @@ export default function AboutPage() {
 
             <Typography
               variant="h3"
-              fontWeight="bold"
-              mt={1}
+              sx={{
+                fontWeight: "bold",
+                mt: 1,
+              }}
             >
               About This Project
             </Typography>
 
-            <Typography sx={{ opacity: .9 }}>
+            <Typography
+              sx={{
+                opacity: 0.9,
+              }}
+            >
               Pokemon Information Web Application
             </Typography>
           </Box>
 
           <CardContent sx={{ p: 5 }}>
             <Typography
-              textAlign="center"
-              color="text.secondary"
-              lineHeight={1.9}
+              sx={{
+                textAlign: "center",
+                color: "text.secondary",
+                lineHeight: 1.9,
+              }}
             >
               โปรเจกต์นี้จัดทำขึ้นเพื่อศึกษาการพัฒนาเว็บไซต์ด้วย
               <strong> Next.js </strong>,
               <strong> Material UI </strong>
               และเชื่อมต่อกับ
               <strong> PokeAPI </strong>
-              เพื่อแสดงข้อมูลโปเกมอนทั้งหมด
-              รองรับ Responsive Design,
+              เพื่อแสดงข้อมูลโปเกมอนทั้งหมด รองรับ Responsive Design,
               Pagination และการแสดงรายละเอียดของโปเกมอน
             </Typography>
 
@@ -103,8 +108,10 @@ export default function AboutPage() {
 
             <Typography
               variant="h5"
-              fontWeight="bold"
               gutterBottom
+              sx={{
+                fontWeight: "bold",
+              }}
             >
               <PersonIcon
                 sx={{
@@ -124,11 +131,7 @@ export default function AboutPage() {
                 border: "1px solid #e5e5e5",
               }}
             >
-              <Stack
-                spacing={3}
-                alignItems="center"
-              >
-                {/* Profile */}
+              <Stack spacing={3} alignItems="center">
                 <Avatar
                   src="/images/profile.jpg"
                   alt="Profile"
@@ -142,7 +145,9 @@ export default function AboutPage() {
 
                 <Typography
                   variant="h4"
-                  fontWeight="bold"
+                  sx={{
+                    fontWeight: "bold",
+                  }}
                 >
                   ภาณุวัฒน์ ประเสริฐดี
                 </Typography>
@@ -151,7 +156,6 @@ export default function AboutPage() {
                   Front-end Web Developer
                 </Typography>
 
-                {/* Social */}
                 <Stack direction="row" spacing={2}>
                   <Tooltip title="GitHub">
                     <IconButton
@@ -161,11 +165,11 @@ export default function AboutPage() {
                       sx={{
                         bgcolor: "#24292e",
                         color: "white",
+                        transition: ".3s",
                         "&:hover": {
                           bgcolor: "#000",
                           transform: "scale(1.1)",
                         },
-                        transition: ".3s",
                       }}
                     >
                       <GitHubIcon />
@@ -180,11 +184,11 @@ export default function AboutPage() {
                       sx={{
                         bgcolor: "#1877F2",
                         color: "white",
+                        transition: ".3s",
                         "&:hover": {
                           bgcolor: "#145DBF",
                           transform: "scale(1.1)",
                         },
-                        transition: ".3s",
                       }}
                     >
                       <FacebookIcon />
@@ -200,10 +204,10 @@ export default function AboutPage() {
                         background:
                           "linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888)",
                         color: "white",
+                        transition: ".3s",
                         "&:hover": {
                           transform: "scale(1.1)",
                         },
-                        transition: ".3s",
                       }}
                     >
                       <InstagramIcon />
@@ -263,7 +267,6 @@ export default function AboutPage() {
                   fontWeight: "bold",
                   bgcolor: "#24292e",
                   transition: ".3s",
-
                   "&:hover": {
                     bgcolor: "#000",
                     transform: "translateY(-3px)",
