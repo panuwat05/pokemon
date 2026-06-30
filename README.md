@@ -53,19 +53,19 @@ The application retrieves Pokémon data from the official **PokeAPI** and presen
 
 ## 🏠 Home Page
 
-![Home Page](images/image-1.png)
+![Home Page]![alt text](image-4.png)
 
 ---
 
 ## 🎮 Pokémon Detail
 
-![Pokemon Detail](images/image-2.png)
+![Pokemon Detail]![alt text](image-5.png)
 
 ---
 
 ## 👨‍💻 About Developer
 
-![About Page](images/image-3.png)
+![About Page]![alt text](image-6.png)
 
 ---
 
