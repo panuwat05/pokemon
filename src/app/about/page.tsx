@@ -253,7 +253,7 @@ export default function AboutPage() {
               <Button
                 variant="contained"
                 startIcon={<GitHubIcon />}
-                href="https://github.com/panuwat05/pokemon-project"
+                href="https://github.com/panuwat05/pokemon"
                 target="_blank"
                 size="large"
                 sx={{
