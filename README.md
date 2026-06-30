@@ -1,36 +1,132 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🧩 Pokemon Directory Project (Next.js & PokeAPI)
 
-## Getting Started
+A modern web application developed with Next.js, TypeScript, and Material UI, utilizing the official PokeAPI to display Pokémon information in a clean, responsive, and user-friendly interface.
 
-First, run the development server:
+📖 Project Overview
 
-```bash
+This project was developed as part of the Front-end Web Programming course to practice modern web development using the React ecosystem.
+
+The application retrieves Pokémon data from the official PokeAPI and presents detailed information including Pokémon images, statistics, evolution chains, cries, and more.
+
+✨ Features
+🔍 Browse 1351+ Pokémon from the official PokeAPI
+📄 Detailed Pokémon information page
+🖼️ Official Pokémon artwork
+📊 Base Stats display with progress bars
+🏷️ Pokémon Types
+🌱 Evolution Chain
+🔊 Pokémon Cry Audio
+📑 Pagination using API offset and limit
+⚡ Loading Skeleton while fetching data
+📱 Fully Responsive Design
+🎨 Modern UI built with Material UI
+ℹ️ About Developer page
+🌙 Clean and user-friendly interface
+🛠️ Technologies Used
+Technology	Description
+Next.js	React Framework
+TypeScript	Programming Language
+Material UI (MUI)	UI Component Library
+PokeAPI	Pokémon REST API
+Axios / Fetch API	API Requests
+React Skeleton	Loading Placeholder
+📸 Screenshots
+Home Page
+
+
+
+
+Pokémon Detail
+
+
+
+
+About Page
+
+
+
+
+📂 Project Structure
+pokemon-project/
+│
+├── public/
+│   ├── images/
+│   │   └── profile.jpg
+│   ├── ![alt text](image-1.png)
+│   ├── ![alt text](image-2.png)
+│   └── ![alt text](image-3.png)
+│
+├── src/
+│   ├── app/
+│   ├── components/
+│   ├── lib/
+│   └── types/
+│
+├── package.json
+├── tsconfig.json
+└── README.md
+🚀 Getting Started
+1. Clone the repository
+git clone https://github.com/panuwat05/pokemon-project
+2. Navigate to the project
+cd pokemon-project
+3. Install dependencies
+npm install
+
+or
+
+yarn install
+4. Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and visit
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
+🌐 API Reference
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project uses the official PokeAPI.
 
-## Learn More
+https://pokeapi.co/
 
-To learn more about Next.js, take a look at the following resources:
+Example Endpoint
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+https://pokeapi.co/api/v2/pokemon
+📚 Course Information
+Item	Information
+Course	Front-end Web Programming
+Program	Computer Science and Information Technology
+Faculty	Faculty of Interdisciplinary Studies
+University	Khon Kaen University, Nong Khai Campus
+👨‍💻 Developer Information
+Information	Details
+Name	ภาณุวัฒน์ ประเสริฐดี
+Student ID	673450474-0
+Program	Computer and Information Science
+Faculty	Faculty of Interdisciplinary Studies
+University	Khon Kaen University, Nong Khai Campus
+Contact
+GitHub: https://github.com/panuwat05
+Facebook: https://www.facebook.com/panuwat.prasertdee
+Instagram: https://www.instagram.com/txgxr_panu/
+🎯 Learning Objectives
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project demonstrates knowledge of:
 
-## Deploy on Vercel
+Next.js App Router
+TypeScript
+React Components
+Client-side Data Fetching
+REST API Integration
+Material UI
+Responsive Web Design
+Pagination
+Dynamic Routing
+State Management using React Hooks
+📄 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project was developed for educational purposes as part of the Front-end Web Programming course at Khon Kaen University, Nong Khai Campus.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+⭐ Acknowledgements
+Pokémon and Pokémon character data are provided by PokeAPI.
+Pokémon is © Nintendo, Game Freak, and Creatures Inc.
+Thanks to the React, Next.js, and Material UI communities for providing excellent open-source tools.
