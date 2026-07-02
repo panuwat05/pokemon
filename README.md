@@ -1,3 +1,5 @@
+# link WED Pokemon Directory
+https://pokemon-jet-chi.vercel.app/
 # 🧩 Pokemon Directory Project (Next.js & PokeAPI)
 
 ![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)
